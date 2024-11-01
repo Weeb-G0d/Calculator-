@@ -1,0 +1,41 @@
+.container{
+    height: 80vh;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+  #display{
+    border: 2px solid yellow;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(87, 87, 84);
+    height: 10vh;
+    width: 490px;
+  }
+
+  #answer,#expression {
+  margin-right: 20px;
+  }
+
+  .button-pads{
+    width: 500px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    overflow: auto;
+  }
+  button{
+    width: 100%;
+  }
+  #clear{
+    grid-column: span 4;
+
+  }
+  
